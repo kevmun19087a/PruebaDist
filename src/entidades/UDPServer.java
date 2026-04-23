@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class UDPServer {
 
-    private int PORT = 5000;
+    private static final int PORT = 5000;
     private final List<Usuario> usuarios = new ArrayList<>();
     private final Map<String, Tarjeta> tarjetas = new HashMap<>();
 
