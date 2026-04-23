@@ -1,4 +1,4 @@
-package servidor;
+package entidades;
 
 public class Tarjeta {
     private Usuario usuario;

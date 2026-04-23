@@ -1,4 +1,4 @@
-package servidor;
+package entidades;
 
 public class Usuario {
     private String cedula;
@@ -15,25 +15,14 @@ public class Usuario {
         this.preferencial = preferencial;
     }
 
-    public String getCedula() {
-        return cedula;
-    }
-    public String getCorreo() {
-        return correo;
-    }
-    public String getTelefono() {
-        return telefono;
-    }
-    public String getNombre() {
-        return nombre;
-    }
-    public boolean isPreferencial() {
-        return preferencial;
-    }
+    public String getCedula() { return cedula; }
+    public String getCorreo() { return correo; }
+    public String getTelefono() { return telefono; }
+    public String getNombre() { return nombre; }
+    public boolean isPreferencial() { return preferencial; }
 
     @Override
     public String toString() {
         return "Usuario{cedula='" + cedula + "', nombre='" + nombre + "', correo='" + correo + "', telefono='" + telefono + "', preferencial=" + preferencial + "}";
     }
 }
-
